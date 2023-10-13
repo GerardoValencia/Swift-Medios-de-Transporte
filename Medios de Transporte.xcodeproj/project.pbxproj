@@ -1,0 +1,667 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA14C0D72AD9023A00DF4BE9 /* BusListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14C0D62AD9023A00DF4BE9 /* BusListView.swift */; };
+		AA14C0D92AD9024600DF4BE9 /* FerryListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14C0D82AD9024600DF4BE9 /* FerryListView.swift */; };
+		AA14C0DB2AD9024E00DF4BE9 /* PlaneListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA14C0DA2AD9024E00DF4BE9 /* PlaneListView.swift */; };
+		AA51AB982AD0DCF800B0F9B5 /* Medios_de_TransporteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51AB972AD0DCF800B0F9B5 /* Medios_de_TransporteApp.swift */; };
+		AA51AB9A2AD0DCF800B0F9B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51AB992AD0DCF800B0F9B5 /* ContentView.swift */; };
+		AA51AB9C2AD0DCFA00B0F9B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA51AB9B2AD0DCFA00B0F9B5 /* Assets.xcassets */; };
+		AA51AB9F2AD0DCFA00B0F9B5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA51AB9E2AD0DCFA00B0F9B5 /* Preview Assets.xcassets */; };
+		AA51ABA92AD0DCFA00B0F9B5 /* Medios_de_TransporteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABA82AD0DCFA00B0F9B5 /* Medios_de_TransporteTests.swift */; };
+		AA51ABB32AD0DCFA00B0F9B5 /* Medios_de_TransporteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABB22AD0DCFA00B0F9B5 /* Medios_de_TransporteUITests.swift */; };
+		AA51ABB52AD0DCFA00B0F9B5 /* Medios_de_TransporteUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABB42AD0DCFA00B0F9B5 /* Medios_de_TransporteUITestsLaunchTests.swift */; };
+		AA51ABC62AD3B0A800B0F9B5 /* CardViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABC52AD3B0A800B0F9B5 /* CardViewModifier.swift */; };
+		AA51ABC82AD3B0B700B0F9B5 /* MeansOfTransportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABC72AD3B0B700B0F9B5 /* MeansOfTransportView.swift */; };
+		AA51ABCA2AD3B0C500B0F9B5 /* TrainCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABC92AD3B0C500B0F9B5 /* TrainCardView.swift */; };
+		AA51ABCC2AD3C11300B0F9B5 /* PlaneCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABCB2AD3C11300B0F9B5 /* PlaneCardView.swift */; };
+		AA51ABCE2AD3C17700B0F9B5 /* BusCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABCD2AD3C17700B0F9B5 /* BusCardView.swift */; };
+		AA51ABD02AD3C1CB00B0F9B5 /* FerryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA51ABCF2AD3C1CB00B0F9B5 /* FerryCardView.swift */; };
+		AAC532BC2AD77B1F000D528C /* TrainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAC532BB2AD77B1F000D528C /* TrainListView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA51ABA52AD0DCFA00B0F9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA51AB8C2AD0DCF800B0F9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA51AB932AD0DCF800B0F9B5;
+			remoteInfo = "Medios de Transporte";
+		};
+		AA51ABAF2AD0DCFA00B0F9B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA51AB8C2AD0DCF800B0F9B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA51AB932AD0DCF800B0F9B5;
+			remoteInfo = "Medios de Transporte";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA14C0D62AD9023A00DF4BE9 /* BusListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusListView.swift; sourceTree = "<group>"; };
+		AA14C0D82AD9024600DF4BE9 /* FerryListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryListView.swift; sourceTree = "<group>"; };
+		AA14C0DA2AD9024E00DF4BE9 /* PlaneListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneListView.swift; sourceTree = "<group>"; };
+		AA51AB942AD0DCF800B0F9B5 /* Medios de Transporte.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Medios de Transporte.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA51AB972AD0DCF800B0F9B5 /* Medios_de_TransporteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medios_de_TransporteApp.swift; sourceTree = "<group>"; };
+		AA51AB992AD0DCF800B0F9B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA51AB9B2AD0DCFA00B0F9B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA51AB9E2AD0DCFA00B0F9B5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA51ABA42AD0DCFA00B0F9B5 /* Medios de TransporteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medios de TransporteTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA51ABA82AD0DCFA00B0F9B5 /* Medios_de_TransporteTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medios_de_TransporteTests.swift; sourceTree = "<group>"; };
+		AA51ABAE2AD0DCFA00B0F9B5 /* Medios de TransporteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Medios de TransporteUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA51ABB22AD0DCFA00B0F9B5 /* Medios_de_TransporteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medios_de_TransporteUITests.swift; sourceTree = "<group>"; };
+		AA51ABB42AD0DCFA00B0F9B5 /* Medios_de_TransporteUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medios_de_TransporteUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA51ABC52AD3B0A800B0F9B5 /* CardViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModifier.swift; sourceTree = "<group>"; };
+		AA51ABC72AD3B0B700B0F9B5 /* MeansOfTransportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeansOfTransportView.swift; sourceTree = "<group>"; };
+		AA51ABC92AD3B0C500B0F9B5 /* TrainCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCardView.swift; sourceTree = "<group>"; };
+		AA51ABCB2AD3C11300B0F9B5 /* PlaneCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaneCardView.swift; sourceTree = "<group>"; };
+		AA51ABCD2AD3C17700B0F9B5 /* BusCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusCardView.swift; sourceTree = "<group>"; };
+		AA51ABCF2AD3C1CB00B0F9B5 /* FerryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FerryCardView.swift; sourceTree = "<group>"; };
+		AAC532BB2AD77B1F000D528C /* TrainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainListView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA51AB912AD0DCF800B0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABA12AD0DCFA00B0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABAB2AD0DCFA00B0F9B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA14C0D12AD9014B00DF4BE9 /* Trains */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABC92AD3B0C500B0F9B5 /* TrainCardView.swift */,
+				AAC532BB2AD77B1F000D528C /* TrainListView.swift */,
+			);
+			path = Trains;
+			sourceTree = "<group>";
+		};
+		AA14C0D22AD901B500DF4BE9 /* Planes */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABCB2AD3C11300B0F9B5 /* PlaneCardView.swift */,
+				AA14C0DA2AD9024E00DF4BE9 /* PlaneListView.swift */,
+			);
+			path = Planes;
+			sourceTree = "<group>";
+		};
+		AA14C0D32AD901C400DF4BE9 /* Ferries */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABCF2AD3C1CB00B0F9B5 /* FerryCardView.swift */,
+				AA14C0D82AD9024600DF4BE9 /* FerryListView.swift */,
+			);
+			path = Ferries;
+			sourceTree = "<group>";
+		};
+		AA14C0D42AD901CF00DF4BE9 /* Buses */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABCD2AD3C17700B0F9B5 /* BusCardView.swift */,
+				AA14C0D62AD9023A00DF4BE9 /* BusListView.swift */,
+			);
+			path = Buses;
+			sourceTree = "<group>";
+		};
+		AA14C0D52AD901E400DF4BE9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AA51AB992AD0DCF800B0F9B5 /* ContentView.swift */,
+				AA51ABC72AD3B0B700B0F9B5 /* MeansOfTransportView.swift */,
+				AA51ABC52AD3B0A800B0F9B5 /* CardViewModifier.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AA51AB8B2AD0DCF800B0F9B5 = {
+			isa = PBXGroup;
+			children = (
+				AA51AB962AD0DCF800B0F9B5 /* Medios de Transporte */,
+				AA51ABA72AD0DCFA00B0F9B5 /* Medios de TransporteTests */,
+				AA51ABB12AD0DCFA00B0F9B5 /* Medios de TransporteUITests */,
+				AA51AB952AD0DCF800B0F9B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA51AB952AD0DCF800B0F9B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA51AB942AD0DCF800B0F9B5 /* Medios de Transporte.app */,
+				AA51ABA42AD0DCFA00B0F9B5 /* Medios de TransporteTests.xctest */,
+				AA51ABAE2AD0DCFA00B0F9B5 /* Medios de TransporteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA51AB962AD0DCF800B0F9B5 /* Medios de Transporte */ = {
+			isa = PBXGroup;
+			children = (
+				AA14C0D52AD901E400DF4BE9 /* Views */,
+				AA14C0D42AD901CF00DF4BE9 /* Buses */,
+				AA14C0D32AD901C400DF4BE9 /* Ferries */,
+				AA14C0D22AD901B500DF4BE9 /* Planes */,
+				AA14C0D12AD9014B00DF4BE9 /* Trains */,
+				AA51AB972AD0DCF800B0F9B5 /* Medios_de_TransporteApp.swift */,
+				AA51AB9B2AD0DCFA00B0F9B5 /* Assets.xcassets */,
+				AA51AB9D2AD0DCFA00B0F9B5 /* Preview Content */,
+			);
+			path = "Medios de Transporte";
+			sourceTree = "<group>";
+		};
+		AA51AB9D2AD0DCFA00B0F9B5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AA51AB9E2AD0DCFA00B0F9B5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA51ABA72AD0DCFA00B0F9B5 /* Medios de TransporteTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABA82AD0DCFA00B0F9B5 /* Medios_de_TransporteTests.swift */,
+			);
+			path = "Medios de TransporteTests";
+			sourceTree = "<group>";
+		};
+		AA51ABB12AD0DCFA00B0F9B5 /* Medios de TransporteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA51ABB22AD0DCFA00B0F9B5 /* Medios_de_TransporteUITests.swift */,
+				AA51ABB42AD0DCFA00B0F9B5 /* Medios_de_TransporteUITestsLaunchTests.swift */,
+			);
+			path = "Medios de TransporteUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA51AB932AD0DCF800B0F9B5 /* Medios de Transporte */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA51ABB82AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de Transporte" */;
+			buildPhases = (
+				AA51AB902AD0DCF800B0F9B5 /* Sources */,
+				AA51AB912AD0DCF800B0F9B5 /* Frameworks */,
+				AA51AB922AD0DCF800B0F9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Medios de Transporte";
+			productName = "Medios de Transporte";
+			productReference = AA51AB942AD0DCF800B0F9B5 /* Medios de Transporte.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA51ABA32AD0DCFA00B0F9B5 /* Medios de TransporteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA51ABBB2AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de TransporteTests" */;
+			buildPhases = (
+				AA51ABA02AD0DCFA00B0F9B5 /* Sources */,
+				AA51ABA12AD0DCFA00B0F9B5 /* Frameworks */,
+				AA51ABA22AD0DCFA00B0F9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA51ABA62AD0DCFA00B0F9B5 /* PBXTargetDependency */,
+			);
+			name = "Medios de TransporteTests";
+			productName = "Medios de TransporteTests";
+			productReference = AA51ABA42AD0DCFA00B0F9B5 /* Medios de TransporteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA51ABAD2AD0DCFA00B0F9B5 /* Medios de TransporteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA51ABBE2AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de TransporteUITests" */;
+			buildPhases = (
+				AA51ABAA2AD0DCFA00B0F9B5 /* Sources */,
+				AA51ABAB2AD0DCFA00B0F9B5 /* Frameworks */,
+				AA51ABAC2AD0DCFA00B0F9B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA51ABB02AD0DCFA00B0F9B5 /* PBXTargetDependency */,
+			);
+			name = "Medios de TransporteUITests";
+			productName = "Medios de TransporteUITests";
+			productReference = AA51ABAE2AD0DCFA00B0F9B5 /* Medios de TransporteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA51AB8C2AD0DCF800B0F9B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					AA51AB932AD0DCF800B0F9B5 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					AA51ABA32AD0DCFA00B0F9B5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AA51AB932AD0DCF800B0F9B5;
+					};
+					AA51ABAD2AD0DCFA00B0F9B5 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = AA51AB932AD0DCF800B0F9B5;
+					};
+				};
+			};
+			buildConfigurationList = AA51AB8F2AD0DCF800B0F9B5 /* Build configuration list for PBXProject "Medios de Transporte" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA51AB8B2AD0DCF800B0F9B5;
+			productRefGroup = AA51AB952AD0DCF800B0F9B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA51AB932AD0DCF800B0F9B5 /* Medios de Transporte */,
+				AA51ABA32AD0DCFA00B0F9B5 /* Medios de TransporteTests */,
+				AA51ABAD2AD0DCFA00B0F9B5 /* Medios de TransporteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA51AB922AD0DCF800B0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA51AB9F2AD0DCFA00B0F9B5 /* Preview Assets.xcassets in Resources */,
+				AA51AB9C2AD0DCFA00B0F9B5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABA22AD0DCFA00B0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABAC2AD0DCFA00B0F9B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA51AB902AD0DCF800B0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA51ABCA2AD3B0C500B0F9B5 /* TrainCardView.swift in Sources */,
+				AA14C0DB2AD9024E00DF4BE9 /* PlaneListView.swift in Sources */,
+				AA14C0D72AD9023A00DF4BE9 /* BusListView.swift in Sources */,
+				AA51ABCE2AD3C17700B0F9B5 /* BusCardView.swift in Sources */,
+				AA14C0D92AD9024600DF4BE9 /* FerryListView.swift in Sources */,
+				AA51ABC62AD3B0A800B0F9B5 /* CardViewModifier.swift in Sources */,
+				AAC532BC2AD77B1F000D528C /* TrainListView.swift in Sources */,
+				AA51ABD02AD3C1CB00B0F9B5 /* FerryCardView.swift in Sources */,
+				AA51AB9A2AD0DCF800B0F9B5 /* ContentView.swift in Sources */,
+				AA51ABCC2AD3C11300B0F9B5 /* PlaneCardView.swift in Sources */,
+				AA51ABC82AD3B0B700B0F9B5 /* MeansOfTransportView.swift in Sources */,
+				AA51AB982AD0DCF800B0F9B5 /* Medios_de_TransporteApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABA02AD0DCFA00B0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA51ABA92AD0DCFA00B0F9B5 /* Medios_de_TransporteTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA51ABAA2AD0DCFA00B0F9B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA51ABB52AD0DCFA00B0F9B5 /* Medios_de_TransporteUITestsLaunchTests.swift in Sources */,
+				AA51ABB32AD0DCFA00B0F9B5 /* Medios_de_TransporteUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA51ABA62AD0DCFA00B0F9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA51AB932AD0DCF800B0F9B5 /* Medios de Transporte */;
+			targetProxy = AA51ABA52AD0DCFA00B0F9B5 /* PBXContainerItemProxy */;
+		};
+		AA51ABB02AD0DCFA00B0F9B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA51AB932AD0DCF800B0F9B5 /* Medios de Transporte */;
+			targetProxy = AA51ABAF2AD0DCFA00B0F9B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AA51ABB62AD0DCFA00B0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA51ABB72AD0DCFA00B0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA51ABB92AD0DCFA00B0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medios de Transporte/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-Transporte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA51ABBA2AD0DCFA00B0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Medios de Transporte/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-Transporte";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA51ABBC2AD0DCFA00B0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-TransporteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medios de Transporte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medios de Transporte";
+			};
+			name = Debug;
+		};
+		AA51ABBD2AD0DCFA00B0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-TransporteTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Medios de Transporte.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Medios de Transporte";
+			};
+			name = Release;
+		};
+		AA51ABBF2AD0DCFA00B0F9B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-TransporteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medios de Transporte";
+			};
+			name = Debug;
+		};
+		AA51ABC02AD0DCFA00B0F9B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.iest.Medios-de-TransporteUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Medios de Transporte";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA51AB8F2AD0DCF800B0F9B5 /* Build configuration list for PBXProject "Medios de Transporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA51ABB62AD0DCFA00B0F9B5 /* Debug */,
+				AA51ABB72AD0DCFA00B0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA51ABB82AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de Transporte" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA51ABB92AD0DCFA00B0F9B5 /* Debug */,
+				AA51ABBA2AD0DCFA00B0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA51ABBB2AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de TransporteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA51ABBC2AD0DCFA00B0F9B5 /* Debug */,
+				AA51ABBD2AD0DCFA00B0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA51ABBE2AD0DCFA00B0F9B5 /* Build configuration list for PBXNativeTarget "Medios de TransporteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA51ABBF2AD0DCFA00B0F9B5 /* Debug */,
+				AA51ABC02AD0DCFA00B0F9B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA51AB8C2AD0DCF800B0F9B5 /* Project object */;
+}
